@@ -9,7 +9,7 @@ function Gallery() {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
   return (
-    <section className="pt-20 bg-white">
+    <section className="py-24 bg-white">
       <div className="container">
         <div className="mx-auto w-3/4">
           {/* <h3 className="text-center font-bold text-3xl">
