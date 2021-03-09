@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import Footer from '../component/footer'
+import Contact from '../component/Home/contact'
 import Donation from '../component/Home/donation'
 import EventType from '../component/Home/event_type'
 import Gallery from '../component/Home/gallery'
@@ -32,6 +34,10 @@ export default function Home() {
       <Gallery></Gallery>
 
       <Donation></Donation>
+
+      <Contact></Contact>
+
+      <Footer></Footer>
     </>
   )
 }
