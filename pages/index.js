@@ -5,6 +5,7 @@ import Contact from '../component/Home/contact'
 import Donation from '../component/Home/donation'
 import EventType from '../component/Home/event_type'
 import Gallery from '../component/Home/gallery'
+import Partner from '../component/partner'
 
 export default function Home() {
   return (
@@ -19,6 +20,8 @@ export default function Home() {
       <EventType></EventType>
 
       <Gallery></Gallery>
+
+      <Partner></Partner>
 
       <Donation></Donation>
 
