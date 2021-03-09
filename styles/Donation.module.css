@@ -8,6 +8,7 @@
 .bgDonation{
   background-image: url(../public/image/banner.jpeg);
   background-size: cover;
+  background-attachment: fixed;
   width: 100%;
   height: 100%;
   position: absolute;
