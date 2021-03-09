@@ -1,6 +1,6 @@
 function Contact() {
   return(
-    <section className="py-20">
+    <section className="py-20 bg-white">
       <div className="container">
         <div className="grid grid-cols-3 gap-8">
           <div>
