@@ -18,3 +18,14 @@
   display: inline-block;
   position: absolute;
 }
+.bgBanner{
+  background-image: url(../public/image/bg_banner.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
