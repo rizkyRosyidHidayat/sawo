@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Donation from '../component/Home/donation'
 import EventType from '../component/Home/event_type'
 import Gallery from '../component/Home/gallery'
 import styles from '../styles/Home.module.css'
@@ -29,6 +30,8 @@ export default function Home() {
       <EventType></EventType>
 
       <Gallery></Gallery>
+
+      <Donation></Donation>
     </>
   )
 }

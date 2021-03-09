@@ -19,7 +19,7 @@ body{
   @apply bg-black;
   @apply text-white;
 }
-.line-title-section{
+.line-title-section, .line-title-section-white{
   border-radius: 5px;
   width: 80px;
   height: 4px;
@@ -29,6 +29,9 @@ body{
   background: linear-gradient(135deg, rgba(36, 107, 173, 0.9) 0%, rgba(0, 200, 200, 0.9) 100%);
   box-sizing: border-box;
   margin: 24px auto 0 auto;
+}
+.line-title-section-white{
+  background: white;
 }
 
 @tailwind utilities;
