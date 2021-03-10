@@ -11,7 +11,7 @@ function Gallery() {
   return (
     <section className="pt-24 bg-white">
       <div className="container">
-        <div className="mx-auto w-3/4">
+        <div className="mx-auto lg:w-3/4 md:w-full">
           {/* <h3 className="text-center font-bold text-3xl">
             Galeri Foto
           </h3> */}
