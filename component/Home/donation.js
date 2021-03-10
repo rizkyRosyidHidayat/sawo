@@ -14,7 +14,7 @@ function Donation() {
           </h3>
           <div className="line-title-section-white"></div>
           <div className="text-center mb-6">
-            <h1 className="lg:text-8xl md:text-7xl sm:text-6xl font-bold my-12">Rp. 100.000.000 ,00</h1>
+            <h1 className="lg:text-8xl md:text-7xl sm:text-6xl text-5xl font-bold my-12">Rp. 100.000.000 ,00</h1>
             <div className="font-bold">DONATUR TERBARU</div>
           </div>
           <div className="lg:w-1/2 md:w-full mx-auto">
