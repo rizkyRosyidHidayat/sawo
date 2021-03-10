@@ -5,7 +5,7 @@ function Banner() {
     <>
       <div className={styles.bgBanner}></div>
       <section className={styles.banner}>
-        <div className="text-center text-white lg:w-2/3 md:container mx-auto relative z-10 -mb-48">
+        <div className="text-center text-white lg:w-2/3 container mx-auto relative z-10 -mb-48">
           <h1 className="text-6xl font-bold">Sedekah Air Wonosobo</h1>
           <p className="my-8">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. 

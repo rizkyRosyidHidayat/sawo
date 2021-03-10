@@ -13,7 +13,7 @@ function EventType() {
             dignissimos amet, tempore sequi doloremque vel nisi. Aliquid 
             similique fuga incidunt corrupti exercitationem!
           </p>
-          <div className="grid grid-cols-3 gap-8 mt-32">
+          <div className="grid md:grid-cols-3 sm:grid-cols-2 gap-8 mt-32">
             <div className="text-center">
               <div className="rounded-full w-24 h-24 bg-blue-200 mx-auto"></div>
               <h4 className="font-bold text-xl my-6">Nama Tipe Kegiatan</h4>
