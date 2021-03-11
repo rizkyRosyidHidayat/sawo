@@ -1,8 +1,10 @@
+import style from '../styles/Footer.module.css'
+
 const Footer = () => {
   return (
-    <footer className="bg-white">
-      <div className="container border-t border-gray-300 p-8">
-        <p className="text-center font-sans text-sm text-gray-600">Copyright &copy; {new Date().getFullYear()} Sedekah Air Wonosobo</p>
+    <footer className="bgWhite">
+      <div className={style.containerFooter}>
+        <p className={style.copyright}>Copyright &copy; {new Date().getFullYear()} Sedekah Air Wonosobo</p>
       </div>
     </footer>
   )

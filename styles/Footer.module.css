@@ -1,0 +1,12 @@
+.containerFooter{
+  @apply container;
+  @apply border-t;
+  @apply border-gray-300;
+  @apply p-8;
+}
+.copyright{
+  @apply text-center;
+  @apply font-sans;
+  @apply text-sm;
+  @apply text-gray-600;
+}

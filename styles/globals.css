@@ -10,6 +10,7 @@
 .mrAuto{ @apply mb-auto; }
 .textCenter{ @apply text-center; }
 .cursorPinter{ @apply cursor-pointer; }
+.bgWhite{ @apply bg-white; }
 
 @import "https://fonts.googleapis.com/css?family=Raleway:300,400,600,700,800&amp;Raleway:300,400,500,600,700,800,900";
 body{
