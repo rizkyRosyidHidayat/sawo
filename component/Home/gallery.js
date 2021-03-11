@@ -2,6 +2,7 @@ import { useState } from 'react';
 import SwiperCore, { Thumbs, Autoplay, Lazy } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.min.css';
+import styles from '../../styles/Gallery.module.css'
 
 SwiperCore.use([Thumbs, Autoplay, Lazy]);
 
@@ -9,9 +10,9 @@ function Gallery() {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
   return (
-    <section className="pt-24 bg-white">
-      <div className="container">
-        <div className="mx-auto lg:w-3/4 md:w-full">
+    <section className={styles.gallery}>
+      <div className="containerGlobal">
+        <div className={styles.row}>
           {/* <h3 className="text-center font-bold text-3xl">
             Galeri Foto
           </h3> */}
@@ -42,17 +43,17 @@ function Gallery() {
             loop={true}
             watchSlidesVisibility
             watchSlidesProgress
-            className="mb-8">
-            <SwiperSlide className="cursor-pointer">
+            className="mb8">
+            <SwiperSlide className="cursorPointer">
               <img src="/image/photo_banner.png" alt="photo banner" width="100%" height="auto" />
             </SwiperSlide>
-            <SwiperSlide className="cursor-pointer">
+            <SwiperSlide className="cursorPointer">
               <img src="/image/photo_banner.png" alt="photo banner" width="100%" height="auto" />
             </SwiperSlide>
-            <SwiperSlide className="cursor-pointer">
+            <SwiperSlide className="cursorPointer">
               <img src="/image/photo_banner.png" alt="photo banner" width="100%" height="auto" />
             </SwiperSlide>
-            <SwiperSlide className="cursor-pointer">
+            <SwiperSlide className="cursorPointer">
               <img src="/image/photo_banner.png" alt="photo banner" width="100%" height="auto" />
             </SwiperSlide>
           </Swiper>

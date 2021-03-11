@@ -1,0 +1,14 @@
+.gallery{
+  @apply pt-24;
+  @apply bg-white;
+}
+.row{
+  @apply mx-auto;
+}
+
+@screen md{
+  .row{ @apply w-full; }
+}
+@screen lg{
+  .row{ @apply w-3/4; }
+}
