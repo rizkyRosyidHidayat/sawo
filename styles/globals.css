@@ -3,11 +3,12 @@
 
 .containerGlobal{ @apply container; }
 .relativeGlobal{ @apply relative; }
+.hiddenGlobal{ @apply hidden; }
 .my8{ @apply my-8; }
 .mb8{ @apply mb-8; }
 .mb6{ @apply mb-6; }
 .mb12{ @apply mb-12; }
-.mrAuto{ @apply mb-auto; }
+.mrAuto{ @apply mr-auto; }
 .textCenter{ @apply text-center; }
 .cursorPinter{ @apply cursor-pointer; }
 .bgWhite{ @apply bg-white; }

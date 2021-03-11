@@ -62,17 +62,17 @@ function Gallery() {
             <SwiperSlide>
               {/* <img data-src="https://swiperjs.com/demos/images/nature-1.jpg" className="swiper-lazy" /> */}
               <img src="/image/photo_banner.png" alt="photo banner" width="100%" height="auto" />
-              <div className="swiper-lazy-preloader swiper-lazy-preloader-white hidden"></div>
+              <div className="swiper-lazy-preloader swiper-lazy-preloader-white hiddenGlobal"></div>
             </SwiperSlide>
             <SwiperSlide>
               {/* <img data-src="https://swiperjs.com/demos/images/nature-2.jpg" className="swiper-lazy" /> */}
               <img src="/image/photo_banner.png" alt="photo banner" width="100%" height="auto" />
-              <div className="swiper-lazy-preloader swiper-lazy-preloader-white hidden"></div>
+              <div className="swiper-lazy-preloader swiper-lazy-preloader-white hiddenGlobal"></div>
             </SwiperSlide>
             <SwiperSlide>
               {/* <img data-src="https://swiperjs.com/demos/images/nature-3.jpg" className="swiper-lazy" /> */}
               <img src="/image/photo_banner.png" alt="photo banner" width="100%" height="auto" />
-              <div className="swiper-lazy-preloader swiper-lazy-preloader-white hidden"></div>
+              <div className="swiper-lazy-preloader swiper-lazy-preloader-white hiddenGlobal"></div>
             </SwiperSlide>
           </Swiper>
         </div>
