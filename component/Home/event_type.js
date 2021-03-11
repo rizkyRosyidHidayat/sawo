@@ -5,7 +5,7 @@ function EventType() {
     <section style={{ backgroundColor: '#F5F7FC' }} className={styles.eventType}>
       <div className="containerGlobal">
         <div className={styles.card}>
-          <h3 className="text-section">
+          <h3 className="title-section">
             Jenis Kegiatan
           </h3>
           <div className="line-title-section"></div>
