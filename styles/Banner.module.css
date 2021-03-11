@@ -29,7 +29,7 @@
   top: 0;
   z-index: -1;
 }
-.descBanner{
+.desc{
   @apply text-center;
   @apply text-white;
   @apply container;
@@ -38,7 +38,14 @@
   @apply z-10;
   @apply -mb-48;
 }
+.title{
+  @apply text-5xl;
+  @apply font-bold;
+}
 
+@screen sm {
+  .title { @apply text-6xl; }
+}
 @screen lg {
-  .descBanner { @apply w-2/3; }
+  .desc { @apply w-2/3; }
 }
