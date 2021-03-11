@@ -1,8 +1,10 @@
 @tailwind base;
 @tailwind components;
 
+.containerGlobal{ @apply container; }
 .my8{ @apply my-8; }
 .mb12{ @apply mb-12; }
+.textCenter{ @apply text-center; }
 
 @import "https://fonts.googleapis.com/css?family=Raleway:300,400,600,700,800&amp;Raleway:300,400,500,600,700,800,900";
 body{
@@ -21,6 +23,11 @@ body{
 .button:hover{
   @apply bg-black;
   @apply text-white;
+}
+.text-section{
+  @apply text-center;
+  @apply font-bold;
+  @apply text-3xl;
 }
 .line-title-section, .line-title-section-white{
   border-radius: 5px;
