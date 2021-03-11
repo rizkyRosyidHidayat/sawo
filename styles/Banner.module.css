@@ -29,3 +29,16 @@
   top: 0;
   z-index: -1;
 }
+.descBanner{
+  @apply text-center;
+  @apply text-white;
+  @apply container;
+  @apply mx-auto;
+  @apply relative;
+  @apply z-10;
+  @apply -mb-48;
+}
+
+@screen lg {
+  @apply w-2/3;
+}

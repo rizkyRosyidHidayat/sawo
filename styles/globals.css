@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+
 @import "https://fonts.googleapis.com/css?family=Raleway:300,400,600,700,800&amp;Raleway:300,400,500,600,700,800,900";
 body{
   font-family: 'Raleway', sans-serif;
@@ -30,3 +33,5 @@ body{
 .line-title-section-white{
   background: white;
 }
+
+@tailwind utilities;
