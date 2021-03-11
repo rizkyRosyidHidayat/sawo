@@ -40,5 +40,5 @@
 }
 
 @screen lg {
-  @apply w-2/3;
+  .descBanner { @apply w-2/3; }
 }
