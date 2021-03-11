@@ -8,7 +8,7 @@ function Donation() {
     <div className="relativeGlobal">
       <div className={styles.bgDonation}></div>
       <section className={`${styles.banner}`}>
-        <div className="container">
+        <div className="containerGlobal">
           <h3 className="title-section">
             Total Donasi
           </h3>
