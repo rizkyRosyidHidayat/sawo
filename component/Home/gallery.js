@@ -10,13 +10,15 @@ function Gallery() {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
   return (
-    <section className={styles.gallery}>
+    <section className={styles.gallery} style={{ backgroundColor: '#F5F7FC' }}>
       <div className="containerGlobal">
         <div className={styles.row}>
-          {/* <h3 className="text-center font-bold text-3xl">
-            Galeri Foto
-          </h3> */}
-          <div></div>
+          <div className="mb12">
+            <h3 className="title-section">
+              Galeri Foto
+            </h3>
+            <div className="line-title-section"></div>
+          </div>
           {/* Controlled Swiper -> store swiper instance */}
           <Swiper 
             slidesPerView={2}

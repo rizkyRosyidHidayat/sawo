@@ -1,4 +1,5 @@
 import styles from '../../styles/Donation.module.css'
+import Gallery from './gallery'
 
 function Donation() {
   const donatur = [
@@ -7,6 +8,7 @@ function Donation() {
   return (
     <div className="relativeGlobal">
       <div className={styles.bgDonation}></div>
+      <Gallery></Gallery>
       <section className={`${styles.banner}`}>
         <div className="containerGlobal">
           <h3 className="title-section">

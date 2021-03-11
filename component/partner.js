@@ -4,7 +4,7 @@ function Partner() {
   return (
     <section className={styles.partner}>
       <div className="containerGlobal">
-        <h2 className={styles.title}>Pihak yang Mendukung</h2>
+        {/* <h2 className={styles.title}>Pihak yang Mendukung</h2> */}
         <div className={styles.row}>
           <div className={styles.col}>
             <img src="/image/adidas.png" alt="logo" width="120px"/>

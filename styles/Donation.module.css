@@ -8,6 +8,7 @@
   @apply h-screen;
   @apply flex;
   @apply items-center;
+  padding-bottom: 32px;
 }
 .bgDonation{
   background-image: url(../public/image/banner.jpeg);
@@ -51,6 +52,7 @@
 
 @screen sm{
   .donation{ @apply text-6xl; }
+  .banner{ @apply items-end; }
 }
 @screen md{
   .donation{ @apply text-7xl; }

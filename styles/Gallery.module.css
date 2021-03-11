@@ -1,6 +1,6 @@
 .gallery{
   @apply pt-24;
-  @apply bg-white;
+  height: 610px;
 }
 .row{
   @apply mx-auto;

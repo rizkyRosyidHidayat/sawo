@@ -1,6 +1,6 @@
 .partner{
   @apply bg-white;
-  @apply py-20;
+  @apply py-16;
 }
 .title{
   @apply font-bold;
