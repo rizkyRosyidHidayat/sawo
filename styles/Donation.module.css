@@ -4,6 +4,10 @@
   background: -webkit-linear-gradient(-45deg, rgba(36, 107, 173, 0.7) 0%, rgba(0, 200, 200, 0.7) 100%);
   background: linear-gradient(135deg, rgba(36, 107, 173, 0.7) 0%, rgba(0, 200, 200, 0.7) 100%);
   @apply relative;
+  @apply text-white;
+  @apply h-screen;
+  @apply flex;
+  @apply items-center;
 }
 .bgDonation{
   background-image: url(../public/image/banner.jpeg);
@@ -15,4 +19,44 @@
   left: 0;
   top: 0;
   z-index: -1;
+}
+.donation{
+  @apply text-5xl;
+  @apply font-bold;
+  @apply my-12;
+}
+.row{
+  @apply mx-auto;
+}
+.col{
+  @apply flex;
+  @apply items-center;
+  @apply p-3;
+  @apply rounded;
+  @apply text-gray-800;
+  @apply mb-3;
+}
+.avatar{
+  @apply w-12;
+  @apply h-12;
+  @apply rounded-full;
+  @apply flex;
+  @apply items-center;
+  @apply justify-center;
+  @apply bg-green-600;
+  @apply text-white;
+  @apply font-bold;
+  @apply mr-4;
+}
+
+@screen sm{
+  .donation{ @apply text-6xl; }
+}
+@screen md{
+  .donation{ @apply text-7xl; }
+  .row{ @apply w-full; }
+}
+@screen lg{
+  .donation{ @apply text-8xl; }
+  .row{ @apply w-1/2; }
 }

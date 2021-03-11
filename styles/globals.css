@@ -2,9 +2,12 @@
 @tailwind components;
 
 .containerGlobal{ @apply container; }
+.relativeGlobal{ @apply relative; }
 .my8{ @apply my-8; }
 .mb8{ @apply mb-8; }
+.mb6{ @apply mb-6; }
 .mb12{ @apply mb-12; }
+.mrAuto{ @apply mb-auto; }
 .textCenter{ @apply text-center; }
 .cursorPinter{ @apply cursor-pointer; }
 
@@ -26,7 +29,7 @@ body{
   @apply bg-black;
   @apply text-white;
 }
-.text-section{
+.title-section{
   @apply text-center;
   @apply font-bold;
   @apply text-3xl;
