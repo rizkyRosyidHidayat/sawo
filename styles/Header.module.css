@@ -1,0 +1,42 @@
+.header{
+  @apply fixed;
+  @apply w-full;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.header.active{
+  background: rgba(36, 107, 173, 0.9);
+  background: -moz-linear-gradient(-45deg, rgba(36, 107, 173, 0.9) 0%, rgba(0, 200, 200, 0.9) 100%);
+  background: -webkit-linear-gradient(-45deg, rgba(36, 107, 173, 0.9) 0%, rgba(0, 200, 200, 0.9) 100%);
+  background: linear-gradient(135deg, rgba(36, 107, 173, 0.9) 0%, rgba(0, 200, 200, 0.9) 100%);
+  @apply shadow;
+}
+.contentHeader{
+  @apply flex;
+  @apply py-8;
+  @apply transition-all;
+  @apply items-center;
+}
+.contentHeader.active{
+  @apply py-4;
+}
+.brand{
+  @apply mr-auto;
+  @apply font-bold;
+  @apply font-sans;
+  @apply text-lg;
+}
+.menu{
+  @apply bg-white;
+  @apply rounded;
+  @apply py-3;
+}
+.menu a{
+  @apply px-4;
+  @apply transition-all;
+  @apply font-semibold;
+}
+.menu a:hover{
+  @apply text-blue-500;
+}
