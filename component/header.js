@@ -10,7 +10,7 @@ function Header(props) {
             <img src="/vercel_white.svg" alt="logo brand" style={{ height: props.active?'30px':'40px', transition: 'all 0.5s ease' }} />
           </a>
           <div className={style.menu}>
-            <a href="#" className="text-blue-500">Beranda</a>
+            <a href="#">Beranda</a>
             <a href="#">Kegiatan</a>
             <a href="#">Galeri</a>
             <a href="#">Donasi</a>
