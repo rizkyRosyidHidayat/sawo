@@ -40,3 +40,34 @@
 .menu a:hover{
   @apply text-blue-500;
 }
+.hiddenMenu{
+  @apply px-4;
+  @apply bg-white;
+  @apply rounded;
+  @apply transition-all;
+  @apply hidden;
+}
+.hiddenMenu.active{
+  @apply block;
+}
+.hiddenMenu a{
+  @apply w-full;
+  @apply block;
+  @apply py-3;
+  @apply transition-all;
+  @apply font-semibold;
+  @apply mb-4;
+}
+.hiddenMenu a:hover{
+  @apply text-blue-500;
+}
+.btnMenu{
+  @apply mx-4;
+  @apply cursor-pointer;
+}
+.showOnlyLarge{ @apply hidden; }
+.hiddenOnlyLarge{ @apply block; }
+@screen lg{
+  .showOnlyLarge{ @apply block; }
+  .hiddenOnlyLarge{ @apply hidden; }
+}
