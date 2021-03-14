@@ -10,7 +10,7 @@ function Gallery() {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
   return (
-    <section className={styles.gallery} style={{ backgroundColor: '#F5F7FC' }}>
+    <section id="galeri" className={styles.gallery} style={{ backgroundColor: '#F5F7FC' }}>
       <div className="containerGlobal">
         <div className={styles.row}>
           <div className="mb12">

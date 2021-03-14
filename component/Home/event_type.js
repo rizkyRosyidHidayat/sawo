@@ -2,7 +2,7 @@ import styles from '../../styles/Event.module.css'
 
 function EventType() {
   return (
-    <section style={{ backgroundColor: '#F5F7FC' }} className={styles.eventType}>
+    <section id="kegiatan" style={{ backgroundColor: '#F5F7FC' }} className={styles.eventType}>
       <div className="containerGlobal">
         <div className={styles.card}>
           <h3 className="title-section">

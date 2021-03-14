@@ -2,7 +2,7 @@ import styles from '../../styles/Banner.module.css'
 
 function Banner() {
   return (
-    <>
+    <div id="beranda">
       <div className={styles.bgBanner}></div>
       <section className={styles.banner}>
         <div className={styles.desc}>
@@ -19,7 +19,7 @@ function Banner() {
           <img src="/image/photo_banner.png" alt="photo banner" width="100%" height="auto" />
         </div>
       </section>
-    </>
+    </div>
   )
 }
 

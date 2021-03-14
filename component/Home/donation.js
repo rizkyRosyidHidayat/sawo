@@ -1,14 +1,12 @@
 import styles from '../../styles/Donation.module.css'
-import Gallery from './gallery'
 
 function Donation() {
   const donatur = [
     { name: 'Hamba Allah', value: 500000 }
   ]
   return (
-    <div className="relativeGlobal">
+    <div id="donasi" className="relativeGlobal">
       <div className={styles.bgDonation}></div>
-      <Gallery></Gallery>
       <section className={`${styles.banner}`}>
         <div className="containerGlobal">
           <h3 className="title-section">

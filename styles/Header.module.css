@@ -37,6 +37,7 @@
   @apply transition-all;
   @apply font-semibold;
 }
+.menu a.active{ @apply text-blue-600; }
 .menu a:hover{
   @apply text-blue-500;
 }

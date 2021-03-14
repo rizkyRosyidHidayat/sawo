@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 
+html{ scroll-behavior: smooth; }
 .containerGlobal{ @apply container; }
 .relativeGlobal{ @apply relative; }
 .hiddenGlobal{ @apply hidden; }

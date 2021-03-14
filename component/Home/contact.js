@@ -2,7 +2,7 @@ import style from '../../styles/Contact.module.css'
 
 function Contact() {
   return(
-    <section className={style.contact}>
+    <section id="kontak" className={style.contact}>
       <div className="containerGlobal">
         <div className={style.row}>
           <div className={style.detail}>
